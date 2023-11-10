@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.postcss'
+	import { base } from '$app/paths'
 
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom'
@@ -9,7 +10,7 @@
 
 <div class="px-48 py-10 relative">
 	<a
-		href="/info"
+		href="{base}/info"
 		class="fixed top-10 right-10 w-12 h-12 flex items-center justify-center rounded-3xl bg-white hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
