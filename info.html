@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.bfe5a307.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ProgressBar.4f1e9ba5.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.ceb66810.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.d3ff6565.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.0f8bfcb0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.a0b4eb01.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.628612ab.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.572a2fb9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.b8d49947.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.369cd133.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ProgressBar.svelte_svelte_type_style_lang.0371481e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.68662f8b.js"><!-- HEAD_svelte-gewkj4_START --><!-- HTML_TAG_START --><script nonce="%sveltekit.nonce%">(function setInitialClassState() {
+  const elemHtmlClasses = document.documentElement.classList;
+  const condLocalStorageUserPrefs = localStorage.getItem("modeUserPrefers") === "false";
+  const condLocalStorageUserPrefsExists = !("modeUserPrefers" in localStorage);
+  const condMatchMedia = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  if (condLocalStorageUserPrefs || condLocalStorageUserPrefsExists && condMatchMedia) {
+    elemHtmlClasses.add("dark");
+  } else {
+    elemHtmlClasses.remove("dark");
+  }
+})();</script><!-- HTML_TAG_END --><!-- HEAD_svelte-gewkj4_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="gold-nouveau">
+		<div style="display: contents">  <div class="px-48 py-10 relative"><a href="/zxcvbn-ts-demo/info" class="fixed top-10 right-10 w-12 h-12 flex items-center justify-center rounded-3xl bg-white hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200" data-svelte-h="svelte-kpkuju"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="black" d="M10.6 16q0-2.025.363-2.913T12.5 11.15q1.025-.9 1.563-1.563t.537-1.512q0-1.025-.687-1.7T12 5.7q-1.275 0-1.938.775T9.126 8.05L6.55 6.95q.525-1.6 1.925-2.775T12 3q2.625 0 4.038 1.463t1.412 3.512q0 1.25-.537 2.138t-1.688 2.012Q14 13.3 13.738 13.913T13.475 16H10.6Zm1.4 6q-.825 0-1.412-.588T10 20q0-.825.588-1.413T12 18q.825 0 1.413.588T14 20q0 .825-.588 1.413T12 22Z"></path></svg></a> <div class="flex justify-between items-center"><div data-svelte-h="svelte-1dguxgf"><h1 class="text-5xl">zxcvbn-ts demo</h1> <h3 class="text-xl text-slate-400">by Michalis Wöss</h3></div>  <div class="lightswitch-track cursor-pointer transition-all duration-[200ms] w-12 h-6 ring-[1px] ring-surface-500/30 rounded-token bg-surface-900 " role="switch" aria-label="Light Switch" aria-checked="false" title="Toggle light or dark mode." tabindex="0"> <div class="lightswitch-thumb aspect-square scale-[0.8] flex justify-center items-center transition-all duration-[200ms] h-6 rounded-token bg-surface-50 "> <svg class="lightswitch-icon w-[70%] aspect-square fill-surface-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></div></div></div> <hr class="mt-4 pb-16"> <main class="flex flex-col gap-6" data-svelte-h="svelte-1duoevb"><article class="p-4 card shadow rounded-lg"><h1 class="text-xl font-semibold mb-3">Performance</h1> <p class="text-sm">To enhance user experience and API integrity, function calls are debounced at 300ms and made
+			asynchronously. This is to ensure the <strong>have i been pwned</strong> API is not overloaded
+			with requests.</p></article> <article class="p-4 card shadow rounded-lg"><h1 class="text-xl font-semibold mb-3">Experimentation</h1> <p class="text-sm">Adjust the language setting and notice the immediate changes in feedback, warnings, and
+			scoring.</p> <h2 class="text-lg font-medium mt-4 mb-2">User Inputs</h2> <p class="text-sm">Use the zxcvbn function with user inputs to prevent personal information from being used as
+			passwords, enhancing security.</p></article>  <article class="p-4 card shadow rounded-lg mb-6"><h1 class="text-xl font-semibold mb-3">Enhanced Password Strength Evaluation Options</h1> <p class="text-sm">To bolster password security, consider these advanced matchers:</p> <ul class="list-disc pl-5 text-sm mb-3"><li>Complex Pattern Matchers: Detect intricate patterns beyond basic matchers.</li> <li>Contextual Analysis: Integrate user-specific data to flag potential vulnerabilities.</li> <li>Multilingual Dictionaries: Include words from various languages to widen scope.</li> <li>Machine Learning Analysis: Employ algorithms to evaluate password predictability.</li> <li>Emotional Pattern Detection: Identify passwords derived from personal emotions.</li> <li>Security Question Analysis: Flag passwords containing common security answers.</li> <li>Typo Analysis: Recognize common typing errors that may compromise security.</li> <li>Biometric Pattern Recognition: Analyze passwords for biometric consistencies.</li> <li>Geometric Pattern Detection: Evaluate swipe patterns on touch-enabled devices.</li> <li>Multi-Factor Integration: Assess passwords within multi-factor authentication setups.</li></ul></article></main></div> 
+			
+			<script>
+				{
+					__sveltekit_fytxn5 = {
+						assets: "/zxcvbn-ts-demo",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.ceb66810.js"),
+						import("./_app/immutable/entry/app.572a2fb9.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
