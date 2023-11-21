@@ -14,3 +14,5 @@ pnpm dev
 ```
 
 Local: http://localhost:5173/
+
+Deployed here: zxcvbn-ts-demo-qvjq727d2-michaliswoess.vercel.app
